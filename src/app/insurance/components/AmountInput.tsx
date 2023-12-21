@@ -1,4 +1,5 @@
 import React from "react";
+import { etherUnits, formatUnits } from "viem";
 
 import { Typography } from "../../../lib";
 import { RHFInputFieldS } from "../../../lib/components/form/rhf/RHFInputFieldS/RHFInputFieldS.client";
@@ -9,6 +10,7 @@ export const AmountInput: React.FC<{
   selectedTokenName?: string;
   maxAmount?: bigint | undefined;
 }> = ({ selectedTokenName, maxAmount }) => {
+  const _maxValue = formatUnits(maxAmount || 0n, etherUnits.wei);
   return (
     <RHFInputFieldS<InsuranceFormData>
       name="amount"
@@ -29,6 +31,10 @@ export const AmountInput: React.FC<{
         min: {
           value: 0,
           message: "Min value is zero",
+        },
+        max: {
+          value: _maxValue,
+          message: `Max value is: ${_maxValue}`,
         },
         required: "Required",
       }}
