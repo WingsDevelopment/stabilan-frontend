@@ -1,0 +1,15 @@
+.modalBackdrop {
+  @apply fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-white bg-opacity-60 backdrop-blur-sm;
+}
+
+.modalBackdrop {
+  @apply fixed inset-0 z-50 flex items-center justify-center overflow-y-auto backdrop-blur-sm;
+}
+
+.modalContent {
+  @apply relative w-full max-w-md mx-auto bg-white shadow-lg p-8 rounded-3xl;
+}
+
+.modalCloseButton {
+  @apply absolute top-6 right-7 flex flex-row z-50;
+}

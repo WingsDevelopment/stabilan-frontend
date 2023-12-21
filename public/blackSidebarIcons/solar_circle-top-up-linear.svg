@@ -1,0 +1,13 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="solar:circle-top-up-linear" clip-path="url(#clip0_591_336)">
+<g id="Group">
+<path id="Vector" d="M10.8334 9.16666L18.3334 1.66666M18.3334 1.66666H13.88M18.3334 1.66666V6.11999" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M10 1.66666C5.39752 1.66666 1.66669 5.39749 1.66669 9.99999C1.66669 14.6025 5.39752 18.3333 10 18.3333C14.6025 18.3333 18.3334 14.6025 18.3334 9.99999" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_591_336">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,16 @@
+.root {
+  @apply border rounded-2xl;
+}
+
+/* SIZES */
+.small {
+  @apply p-3;
+}
+
+.normal {
+  @apply p-6;
+}
+
+.big {
+  @apply p-9;
+}

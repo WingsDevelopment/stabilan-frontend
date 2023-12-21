@@ -1,0 +1,6 @@
+.sliderContainer {
+  @apply w-full flex flex-col p-4 rounded-xl  border-black  border-solid;
+}
+.sliderInput {
+  @apply w-full appearance-none h-[3px] opacity-70 transition-opacity duration-[0.2s] rounded-[100px] bg-success outline-none min-w-0;
+}

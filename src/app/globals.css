@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  /* --background-start-rgb: 42, 47, 67; RGB values for #2a2f43 */
+  /* --background-end-rgb: 53, 58, 60; RGB values for #353a3c */
+  --background-start-rgb: 42, 47, 67; /* RGB values for #edeffc */
+  --background-end-rgb: 53, 58, 60; /* RGB values for #ffffff */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.border-rounded {
+  @apply rounded-md;
+}
+
+.full-screen-gradient {
+  @apply min-h-screen;
+  background: linear-gradient(to right, #edeffc, #ffffff);
+}

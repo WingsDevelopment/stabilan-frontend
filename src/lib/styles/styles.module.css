@@ -1,0 +1,61 @@
+/* VARIANTS & COLORS - BACKGROUND */
+.primary-bg {
+  @apply bg-primary text-white hover:bg-primary-hover;
+}
+
+.secondary-bg {
+  @apply bg-secondary text-black hover:bg-secondary-hover;
+}
+
+.warning-bg {
+  @apply bg-warning text-black hover:bg-warning-hover;
+}
+
+.info-bg {
+  @apply bg-info hover:bg-info-hover;
+}
+
+.success-bg {
+  @apply bg-success hover:bg-success-hover;
+}
+
+.error-bg {
+  @apply bg-error hover:bg-error-hover;
+}
+
+.disabled-bg {
+  @apply bg-disabled hover:bg-disabled-hover;
+}
+
+/* VARIANTS & COLORS - BORDER */
+.primary-border {
+  @apply border-[1px] border-primary text-black dark:text-white hover:border-primary-hover;
+}
+
+.secondary-border {
+  @apply border-[1px] border-secondary text-black dark:text-white hover:border-secondary-hover;
+}
+
+.warning-border {
+  @apply border-[1px] border-warning text-black dark:text-white hover:border-warning-hover;
+}
+
+.info-border {
+  @apply border-[1px] border-info text-black dark:text-white hover:border-info-hover;
+}
+
+.success-border {
+  @apply border-[1px];
+  background: var(--Linear);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.error-border {
+  @apply border-[1px] border-error text-black dark:text-white hover:border-error-hover;
+}
+
+.disabled-border {
+  @apply border-[1px] border-disabled text-disabled dark:text-disabled hover:border-disabled-hover;
+}

@@ -1,0 +1,43 @@
+.root {
+  @apply font-primaryFont;
+}
+
+.h1 {
+  @apply text-h1 font-h1-h6 leading-[120%];
+}
+
+.h2 {
+  @apply text-h2 font-h1-h6 leading-[120%];
+}
+
+.h3 {
+  @apply text-h3 font-h1-h6 leading-[120%];
+}
+
+.h4 {
+  @apply text-h4 font-h1-h6 leading-[120%];
+}
+
+.h5 {
+  @apply text-h5 font-h1-h6 leading-[120%];
+}
+
+.h6 {
+  @apply text-h6 font-h1-h6 leading-[120%];
+}
+
+.body-bold {
+  @apply text-body-bold font-primaryFont font-body-bold leading-[120%];
+}
+
+.body-regular {
+  @apply text-body-regular font-primaryFont font-body-regular leading-[120%];
+}
+
+.meta {
+  @apply text-meta font-primaryFont font-meta leading-[120%];
+}
+
+.tiny {
+  @apply text-tiny font-primaryFont font-tiny leading-[120%];
+}

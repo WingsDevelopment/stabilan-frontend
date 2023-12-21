@@ -1,0 +1,18 @@
+/* Button.module.css */
+
+.root {
+  @apply rounded-3xl transition-colors duration-500 font-primaryFont text-sm font-bold leading-[120%];
+}
+
+/* SIZES */
+.small {
+  @apply px-3 p-1 md:px-5 md:p-2 lg:px-3 lg:p-2;
+}
+
+.normal {
+  @apply px-4 p-1 md:px-5 md:p-2 lg:px-6 lg:p-3;
+}
+
+.big {
+  @apply px-6 p-2 md:px-7 md:p-3 lg:px-9 lg:p-4;
+}

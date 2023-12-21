@@ -1,0 +1,49 @@
+{
+  "name": "chi-protocol-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3030",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "yarn eslint --fix src/"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@metamask/providers": "^13.1.0",
+    "@rainbow-me/rainbowkit": "1.3.0",
+    "@uniswap/sdk-core": "^4.0.1",
+    "@uniswap/v2-sdk": "^3.0.1",
+    "@wagmi/core": "^1.4.5",
+    "abitype": "^0.10.0",
+    "blo": "^1.1.1",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.30.0",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "next": "13.5.4",
+    "pino-pretty": "^10.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.47.0",
+    "react-hot-toast": "^2.4.1",
+    "type-fest": "^4.6.0",
+    "use-debounce": "^8.0.4",
+    "usehooks-ts": "^2.7.2",
+    "viem": "1.19.9",
+    "wagmi": "1.4.7",
+    "zustand": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}

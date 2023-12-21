@@ -1,0 +1,11 @@
+.inputFont {
+  @apply font-primaryFont text-base font-normal not-italic leading-[120%];
+}
+
+.inputRoot {
+  @apply flex-1 outline-none bg-transparent;
+}
+
+.container {
+  @apply flex rounded-md justify-between items-center self-stretch border-black p-4 border-[0.5px] border-solid;
+}
